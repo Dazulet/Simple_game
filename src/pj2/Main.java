@@ -8,7 +8,6 @@ public class Main { public static void main(String[] args) {
     Random ran = new Random();
     System.out.println("Enter your name:");
     String name = sc.nextLine();
-
     System.out.println("you should choose 1 item: Armor or Weapon");
     String choice = sc.next();
 
@@ -16,7 +15,6 @@ public class Main { public static void main(String[] args) {
     EnemyF enemyFactory = new RandomEnemy();
 
     Player player = new Player(name, playerStats, playerStats, playerStats, enemyFactory);
-
     System.out.println("Player: " + player.getName());
     System.out.println("Attack: " + playerStats.getAttack());
     System.out.println("Defence: " + playerStats.getDefence());
