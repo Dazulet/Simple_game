@@ -12,6 +12,8 @@ The code is open for extension, but closed for modification:
 
 To add a new enemy, just extend EnemyF without changing Player.
 You can create a BossEnemy if you need a different enemy creation system.
+
+
 3. LSP (Liskov Substitution Principle)
 Player works with Attack, Defens, HP, and not with BCharacteristic.
 Now you can replace BCharacteristic with any other implementation and the code will not break.
