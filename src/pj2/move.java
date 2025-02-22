@@ -1,6 +1,6 @@
-package pj2;
-
-interface move {
-
-    void move();
-}
+//package pj2;
+//
+//interface move {
+//
+//    void move();
+//}

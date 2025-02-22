@@ -31,7 +31,7 @@ public class Player {
             if (enemyHP <= 0) {break;}
 
             playerHP -= Math.max(0, enemy.getAttack() - defensible.getDefence());
-            System.out.println(enemy.getType() + " attacks back! Player HP: " + Math.max(0, playerHP));
+            System.out.println(enemy.getType() + "He attacks again like mouse.Do you have(HP): " + Math.max(0, playerHP));
         }
 
         if (playerHP > 0) {

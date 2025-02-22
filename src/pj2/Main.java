@@ -13,8 +13,8 @@ public class Main { public static void main(String[] args) {
 
     Characteristic playerStats = new BCharacteristic(choice);
     EnemyF enemyFactory = new RandomEnemy();
-
     Player player = new Player(name, playerStats, playerStats, playerStats, enemyFactory);
+
     System.out.println("Player: " + player.getName());
     System.out.println("Attack: " + playerStats.getAttack());
     System.out.println("Defence: " + playerStats.getDefence());
